@@ -54,7 +54,10 @@
                 android:background="#3F9FE0"
                 tl:tl_textAllCaps="true"
                 tl:tl_textBold="BOTH"
-                tl:tl_textsize="14sp"/>
+                tl:tl_textsize="14sp"
+                tl:tl_textSelectSize="18sp"
+                tl:tl_textUnselectSize="14sp"
+                />
 
             <com.flyco.tablayout.SlidingTabLayout
                 android:id="@+id/tl_4"
@@ -124,7 +127,7 @@
 
         </LinearLayout>
 
-        <android.support.v4.view.ViewPager
+        <androidx.viewpager.widget.ViewPager
             android:id="@+id/vp"
             android:layout_width="match_parent"
             android:layout_height="84dp"/>
